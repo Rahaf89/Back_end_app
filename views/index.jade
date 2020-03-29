@@ -3,7 +3,7 @@ extends layout
 block content
   if authorised
     p Welcome #{fname} | 
-      a(href="/exit") Log Out
+      a(href="/exit") Register
     if typeof users != 'undefined'
     p User list
     ul
@@ -11,6 +11,6 @@ block content
         li= user.user_fname
   else
     p Don't have an account yet? 
-      a(href='/register') Log Up
+      a(href='/register') Register
     p Already have an account? 
       a(href='/login') Log In
