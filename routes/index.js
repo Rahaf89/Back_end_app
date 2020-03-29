@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
   db.query(sqlQuery, function (err, results, fields) {
 
     res.render('index', {
-      title: 'Register - Login',
+      title: '',
       authorised: req.session.authorised,
       fname: req.session.fname,
       users: results

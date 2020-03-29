@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  max-width: 960px;
+  max-width: 300px;
   margin: 0 auto;
   border: 5px solid #f1f1f1;
   padding: 16px;
